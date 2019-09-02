@@ -67,6 +67,7 @@
       <version>${hbase.client.version}</version>
     </dependency>
 
+
     <!-- https://mvnrepository.com/artifact/org.apache.hbase.connectors.spark/hbase-spark -->
    <dependency>
      <groupId>org.apache.hbase.connectors.spark</groupId>
