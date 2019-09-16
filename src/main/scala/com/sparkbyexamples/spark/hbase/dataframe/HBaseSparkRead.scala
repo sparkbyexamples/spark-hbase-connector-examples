@@ -3,16 +3,6 @@ package com.sparkbyexamples.spark.hbase.dataframe
 import org.apache.hadoop.hbase.spark.datasources.HBaseTableCatalog
 import org.apache.spark.sql.SparkSession
 
-// https://mvnrepository.com/artifact/org.apache.hbase/hbase-spark
-
-/**
- * References:
- * https://hbase.apache.org/book.html#_sparksql_dataframes
- * https://github.com/hortonworks-spark/shc
- * https://mvnrepository.com/artifact/org.apache.hbase/hbase-spark
- * https://mvnrepository.com/artifact/org.apache.hbase/hbase-client
- * https://github.com/hortonworks-spark/shc/tree/master/examples/src/main/scala/org/apache/spark/sql/execution/datasources/hbase
- */
 object HBaseSparkRead {
 
   def main(args: Array[String]): Unit = {
